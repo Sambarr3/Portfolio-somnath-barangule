@@ -122,7 +122,7 @@
 
         <!-- Skill: HTML -->
         <div class="mb-3">
-          <h4>HTML</h4>
+          <h4>HTML5</h4>
           <div class="progress">
             <div
               class="progress-bar bg-success"
@@ -171,9 +171,9 @@
           </div>
         </div>
 
-        <!-- Skill: PHP -->
+        <!-- Skill: Java -->
         <div class="mb-3">
-          <h4>PHP</h4>
+          <h4>JAVA</h4>
           <div class="progress">
             <div
               class="progress-bar bg-danger"
@@ -188,19 +188,19 @@
           </div>
         </div>
 
-        <!-- Skill: AngularJS -->
+        <!-- Skill: Python -->
         <div class="mb-3">
-          <h4>AngularJS</h4>
+          <h4>Python</h4>
           <div class="progress">
             <div
               class="progress-bar bg-primary"
               role="progressbar"
-              style="width: 60%"
-              aria-valuenow="60"
+              style="width: 50%"
+              aria-valuenow="50"
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              60%
+              50%
             </div>
           </div>
         </div>
@@ -212,42 +212,53 @@
       <div class="container">
         <h2 class="text-center mb-5">Education</h2>
 
-        <!-- Education Item 1 -->
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Computer Application(BCA)</h5>
-            <p class="card-text">
-              Punyashlok Ahilyadevi Holkar Solapur University, Solapur-413411
-            </p>
-            <p class="card-text">
-              <small class="text-muted">2021 - Present</small>
-            </p>
+        <div class="row">
+          <!-- Education Item 1 -->
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Bachelor of Computer Application(BCA)
+                </h5>
+                <p class="card-text">
+                  Punyashlok Ahilyadevi Holkar Solapur University,
+                  Solapur-413411
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">2021 - 2024</small>
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <!-- Education Item 2 -->
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Higher Secondary Certificate(HSC)</h5>
-            <p class="card-text">
-              Shri Shivaji Mahavidyalaya, Barshi, Solapur-413411
-            </p>
-            <p class="card-text">
-              <small class="text-muted">2019 - 2020</small>
-            </p>
+          <!-- Education Item 2 -->
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Higher Secondary Certificate(HSC)</h5>
+                <p class="card-text">
+                  Shri Shivaji Mahavidyalaya, Barshi, Solapur-413411
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">2019 - 2020</small>
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <!-- Education Item 3 -->
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Secondary School Certificate(SSC)</h5>
-            <p class="card-text">
-              Maharashtra Vidyalaya, Barshi, Solapur-413411
-            </p>
-            <p class="card-text">
-              <small class="text-muted">2018 - 2019</small>
-            </p>
+          <!-- Education Item 3 -->
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Secondary School Certificate(SSC)</h5>
+                <p class="card-text">
+                  Maharashtra Vidyalaya, Barshi, Solapur-413411
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">2018 - 2019</small>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -387,7 +398,7 @@
           <!-- Contact Form -->
           <div class="row justify-content-center">
             <div class="col-md-6">
-              <form action="index.html">
+              <form action="index.html" id="contactForm">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
                   <input
@@ -428,7 +439,7 @@
             <div class="col-md-6">
               <h4>Contact Information</h4>
               <p>Email: barrsam93@gmail.com</p>
-              <p>Phone: +123 456 789</p>
+              <p>Phone: +91 9022152504</p>
             </div>
             <div class="col-md-6">
               <h4>Address</h4>
@@ -438,7 +449,7 @@
         </div>
       </section>
       <!--Social media links-->
-      <div class="container">
+      <div class="container text-center">
         <p>You can follow me on :</p>
         <div class="social-icons">
           <a
@@ -446,31 +457,37 @@
             target="_blank"
             class="text-white"
           >
-            <i class="fab fa-twitter"
-              ><img
-                class="social-logo"
-                src="assets/twitter.png"
-                alt="logo" /></i
-          ></a>
+            <img
+              class="social-logo"
+              src="assets/twitter.png"
+              alt="Twitter logo"
+              data-tooltip="Follow me on Twitter"
+            />
+          </a>
           <a
             href="https://www.linkedin.com/in/somnath-barangule-278115288/"
             target="_blank"
             class="text-white"
           >
-            <i class="fab fa-linkedin"
-              ><img
-                class="social-logo"
-                src="assets/linkedin.png"
-                alt="logo" /></i
-          ></a>
+            <img
+              class="social-logo"
+              src="assets/linkedin.png"
+              alt="LinkedIn logo"
+              data-tooltip="Connect with me on LinkedIn"
+            />
+          </a>
           <a
             href="https://medium.com/@barrsam93"
             target="_blank"
             class="text-white"
           >
-            <i class="fab fa-medium"
-              ><img class="social-logo" src="assets/medium.png" alt="logo" /></i
-          ></a>
+            <img
+              class="social-logo"
+              src="assets/medium.png"
+              alt="Medium logo"
+              data-tooltip="Read my articles on Medium"
+            />
+          </a>
         </div>
         <p>&copy;2024 | Somnath.</p>
       </div>
@@ -478,6 +495,7 @@
 
     <!-- Bootstrap JS and Popper.js -->
     <!-- Font Awesome Icons -->
+    <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/your-font-awesome-kit-id.js"
       crossorigin="anonymous"
