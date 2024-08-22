@@ -2,7 +2,10 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #f8f9fa;
 }
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 3rem;
+}
 h1,
 h2,
 h3,
@@ -10,6 +13,13 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+}
+#navbar {
+  background-color: rgba(0, 0, 0, 0.2); /* Dark background with transparency */
+  position: fixed;
+  backdrop-filter: blur(45px);
+  width: 100%;
+  z-index: 1000;
 }
 .name-logo {
   height: 45px;
@@ -20,7 +30,9 @@ h6 {
   padding-top: 70px;
   font-size: 25px;
 }
-
+#home {
+  padding-top: 7rem;
+}
 .jumbotron {
   background-color: #007bff;
   color: #ffffff;
